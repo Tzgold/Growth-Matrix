@@ -1,0 +1,5 @@
+{
+  "name": "Interactive Analytics Dashboard",
+  "description": "A high-performance analytics dashboard featuring D3.js visualizations, KPI tracking, and interactive data filtering for product usage insights.",
+  "requestFramePermissions": []
+}
