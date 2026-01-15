@@ -7,7 +7,7 @@ import { BarChart, BarChartHandle } from './components/BarChart';
 import { SummaryPanel } from './components/SummaryPanel';
 import { DataPoint, TimeRange, MetricType, DashboardStats, SummaryInsights } from './types';
 import { exportSvgAsPng } from './utils/exportUtils';
-
+import ThreeDBarChart from './threejs.tsx';
 const App: React.FC = () => {
   const [timeRange, setTimeRange] = useState<TimeRange>('30d');
   const [metric, setMetric] = useState<MetricType>('users');
@@ -253,6 +253,7 @@ const App: React.FC = () => {
             </div>
           </div>
         </div>
+        <ThreeDBarChart/>
       </main>
       
       {/* Footer */}
