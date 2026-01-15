@@ -83,4 +83,6 @@ const ThreeDBarChart = () => {
   return <div ref={mountRef}></div>
 }
 
+// i almost just forgot it ohhh
+
 export default ThreeDBarChart
