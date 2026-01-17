@@ -10,5 +10,6 @@ async function loadData() {
 
   console.log(data);
 }
-//am balli 0n you whatch out wh=atch 
+//am balli 0n you whatch out wh=atch
+// for some reason
 loadData();
