@@ -10,5 +10,5 @@ async function loadData() {
 
   console.log(data);
 }
-
+//am balli 0n you whatch out wh=atch 
 loadData();
