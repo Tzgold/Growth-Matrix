@@ -130,6 +130,7 @@ export const LineChart = forwardRef<LineChartHandle, LineChartProps>(({ data, me
       .attr('stroke-dashoffset', 0);
 
     // Tooltip overlay logic
+    //the tool tip thing
     const tooltip = d3.select('body').append('div')
       .attr('class', 'chart-tooltip hidden');
 
