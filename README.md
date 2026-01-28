@@ -82,4 +82,4 @@ Edit or test Growth Matrix in the dev UI at the dashboard route where it's mount
 
 - Keep visual logic inside the component and non-visual helpers in `utils/`.
 - Add unit tests for calculations (percent change, ranking) and keep snapshots for rendered output where applicable.
-to be honest am kinda nervous today like its my first day freelancer idk what to do brooo
+
