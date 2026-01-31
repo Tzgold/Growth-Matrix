@@ -71,15 +71,6 @@ This component is part of the main Vite app. To run the full dashboard:
 2. Start dev server:
    npm run dev
 
-Edit or test Growth Matrix in the dev UI at the dashboard route where it's mounted.
+Edit or test Growth Matrix in the dev UI at the dashboard route where it's mounted
 
-## Troubleshooting
-
-- Empty cells / NaN: check that `baseline` and `current` are numeric. Non-numeric values will be ignored.
-- Export shows blank image: ensure the export helper receives the actual SVG element (not a wrapper div). Use refs to obtain the SVG.
-
-## Contributing
-
-- Keep visual logic inside the component and non-visual helpers in `utils/`.
-- Add unit tests for calculations (percent change, ranking) and keep snapshots for rendered output where applicable.
 
